@@ -31,6 +31,10 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+.container-for-all{
+  width: 1600px;
+  margin: 0 auto;
+}
 /*  ============ HEADER  ============ */
 .header {
   padding: 24px 0 25px;
@@ -135,36 +139,47 @@ img {
   color: #ffffff;
 }
 .hero-img {
-
-  background-color: black;
-   background-color: #c4c4c4;
+  background-color: #c4c4c4;
   text-align: center;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero/hero.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-size: auto auto;
 }
-.hero-title .btn {
-  margin-top: 30px;
-
+.hero-size{
+width: 1600px;
+height: 600px;
+}
+ .hero-title .btn {
   font-weight: 700;
-  font-size: 16px;
+  font-size:16px;
   line-height: 1.875;
-  letter-spacing: 0.06em;
+  letter-spacing:0.06em;
   color: #ffffff;
 
   padding: 10px 32px;
   min-width: 200px;
   height: 50px;
   left: 700px;
-  top: 350px;
-  background: #2196f3;
+  top: 430px;
+  background: rgba(33, 150, 243, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
   border-radius: 4px;
+}
+.main-title{
+margin-bottom: 30px;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
 
 /*  ============ END HERO  ============ */
