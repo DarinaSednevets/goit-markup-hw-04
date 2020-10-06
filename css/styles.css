@@ -134,11 +134,21 @@ img {
   text-transform: uppercase;
   color: #ffffff;
 }
-.hero-title {
-  background-color: SlateGrey;
+.hero-img {
 
+  background-color: black;
+   background-color: #c4c4c4;
+  text-align: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-.btn {
+.hero-title .btn {
   margin-top: 30px;
 
   font-weight: 700;
@@ -421,7 +431,7 @@ text-align: center;
 .footer-first{
   margin-right: 70px;;
 }
-.social-links{
+.goin-social-links{
   display: flex;
 }
 .social-link-item:not(:last-child){
