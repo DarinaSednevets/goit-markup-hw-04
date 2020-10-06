@@ -295,7 +295,10 @@ img {
 /*  ============ End Our team ============ */
 
 /*  ============ FOOTER CONTACTS  ============ */
-.footer-bg-color {
+.footer .container{
+  display: flex;
+}
+.footer {
   background: #2f303a;
 }
 .footer-padding {
@@ -335,6 +338,49 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
+.footer-first{
+  margin-right: 70px;;
+}
+.social-links{
+  display: flex;
+}
+.social-link-item:not(:last-child){
+  margin-right: 10px;
+}
+.footer-social-links > p {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-social-link:hover {
+  background-color: #2196f3;
+}
+
+.footer-social-link > svg {
+  align-self: center;
+  fill:#ffffff;
+
+}
+  
+
+
 
 /*  ============ END FOOTER CONTACTS  ============ */
 
